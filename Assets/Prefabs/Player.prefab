@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8141393189754555321}
   - component: {fileID: 4664235326224736431}
   - component: {fileID: 4095847460123581488}
-  - component: {fileID: 7457709209502035483}
+  - component: {fileID: 2514216833870253693}
   - component: {fileID: 3424003524506236861}
   m_Layer: 0
   m_Name: Player
@@ -132,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.12, y: 0.75}
   m_EdgeRadius: 0
---- !u!50 &7457709209502035483
+--- !u!50 &2514216833870253693
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -172,3 +172,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserPrefab: {fileID: 5506627125660967038, guid: 1a8162fa00c811a43904a4f611676905, type: 3}
+  playerControls:
+    m_Name: Player Controls
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 396d4f2b-d081-48b6-bc5a-efe9bf786478
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  rb: {fileID: 2514216833870253693}

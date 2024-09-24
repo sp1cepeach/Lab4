@@ -20,15 +20,4 @@ public class Laser : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-
-    public void hitByMeteor()
-    {
-        GameObject.Find("GameManager").GetComponent<GameManager>().meteorCount++;
-        Destroy(this.gameObject);
-    }
-
-    public void hitByBigMeteor()
-    {
-        Destroy(this.gameObject);
-    }
 }
